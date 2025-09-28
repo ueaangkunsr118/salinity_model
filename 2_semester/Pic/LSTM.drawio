@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Page-1" id="aGTL9cllFIHRhYIkei5F">
+    <mxGraphModel dx="2066" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kWCgIeekEQdQtieXCCMa-1" value="168 hours" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-330" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kWCgIeekEQdQtieXCCMa-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kWCgIeekEQdQtieXCCMa-3" target="kWCgIeekEQdQtieXCCMa-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWCgIeekEQdQtieXCCMa-3" value="LSTM&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Unit= 64&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="150" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="kWCgIeekEQdQtieXCCMa-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kWCgIeekEQdQtieXCCMa-5" target="kWCgIeekEQdQtieXCCMa-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWCgIeekEQdQtieXCCMa-5" value="Time-distributed Dens&lt;div&gt;&lt;br&gt;Unit = 2&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="150" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="kWCgIeekEQdQtieXCCMa-8" value="168 hours" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWf6U6ocfcTmXbx9X14c-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-20" y="150" width="260" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="vWf6U6ocfcTmXbx9X14c-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vWf6U6ocfcTmXbx9X14c-5" target="vWf6U6ocfcTmXbx9X14c-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWf6U6ocfcTmXbx9X14c-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vWf6U6ocfcTmXbx9X14c-5" source="vWf6U6ocfcTmXbx9X14c-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWf6U6ocfcTmXbx9X14c-3" value="LSTM&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Unit = 64&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vWf6U6ocfcTmXbx9X14c-5">
+          <mxGeometry x="70" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="vWf6U6ocfcTmXbx9X14c-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="vWf6U6ocfcTmXbx9X14c-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-210" y="350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWf6U6ocfcTmXbx9X14c-8" value="Convolutional1D&lt;div&gt;&lt;br&gt;&lt;div&gt;Filter = 16&lt;/div&gt;&lt;div&gt;Kernel = 3&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="150" width="120" height="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
